@@ -1,13 +1,40 @@
+body {
+    background-color: powderblue;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(134, 7, 128);
+}
 img {
     width: 150px;
     height: 150px;
-    border-radius: 50px;
+    /* border-radius: 40px; since we are using .png with no background no need for borderradius */
+    align-items: center;
+
 }
-.section1 {
+
+.card {
     background-color: papayawhip;
     text-align: center;
     float: left;
-    padding: 20px;
-    border-radius: 100px;
+    padding: 30px;
+    border-radius: 40px;
+    margin: 10px;
+    font-family: cursive;
+    color: rgb(134, 7, 128);
+    
 
+}
+.fruittable {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(134, 7, 128);
+    
 }
