@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box; /* ovo se primjenjuje kada hocemo da ocuvamo nase vec zadane paramete jer je po default display:block istraziti */
+}
+header {
+    background-color: darkgray;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 35px;
+}
+nav {
+    float: left;
+    width: 30%;
+    height: 400px;
+    background-color: lightgray;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+
+}
+article {
+    float: left;
+    width: 70%;
+    height: 400px;
+    padding: 20px;
+    background-color: seashell;
+}
+
+footer {
+    background-color: darkgray;
+    text-align: center;
+    color: white;
+    padding: 12px;
+
+}
+.footer {
+    background-color: darkgreen;
+}
+.footer-red {
+    background-color: darkred;
+}
+
+/* tr:nth-child(odd ili even može) {   ovo radimo ako hocemo da obojimo a ako hocemo da exclude table head onda idemo tbody prije tr:nth-child()
+    background-color:black;
+}
